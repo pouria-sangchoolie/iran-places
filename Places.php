@@ -1,13 +1,6 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
+<?php
 class Places
 {
-    public function __construct()
-    {
-        $ci =& get_instance();
-        $ci->load->database();
-    }
-
     public function states( $input = [] )
     {
         $states = 
